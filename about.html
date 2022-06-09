@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Shaked is a Front-end developer based in Europe."
+    />
+    <title>About Shaked Cohen</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -21,9 +26,41 @@
     />
 
     <link rel="stylesheet" href="/src/style.css" />
-    <title>Document</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage"
+          ><img
+            src="/images/logo.png"
+            class="logo d-none d-md-block"
+            alt="SheCodes Logo"
+        /></a>
+        <a href="/"
+          ><img
+            src="/images/logo-small.png"
+            class="logo d-block d-md-none"
+            alt="SheCodes Logo"
+            title="Homepage"
+        /></a>
+        <ul>
+          <li>
+            <a
+              href="/"
+              title="
+            Homepage"
+              >Home</a
+            >
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Shaked">About</a>
+          </li>
+          <li><a href="/work.html" title=" Shaked Work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Shaked">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="content-container container">
       <div class="row">
         <div class="col-md-6">
@@ -36,13 +73,72 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="" class="btn btn-branding">See my projects</a>
+            <a href="/work.html" class="btn btn-branding">See my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="/images/shaked.png" alt="" class="img-fluid shaked-img" />
+          <img
+            src="/images/shaked.png"
+            alt="shaked cohen"
+            class="img-fluid shaked-img"
+          />
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">
+            Let’s work together and i’ll help you by all my best
+          </p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Shaked"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:shakedc28@gmail.com"
+          class="email-link"
+          title="Email Shaked"
+          >shakedc28@gmail.com</a
+        >
+      </div>
+
+      <div class="social-links d-flex justify-content-center mb-5">
+        <a
+          href="https://www.instagram.com/cohen.shaked/"
+          target="_blank"
+          title="Instagram Profile"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://github.com/shakedc28"
+          target="_blank"
+          title="GitHub Profile"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/shaked-cohen-686a3b219"
+          target="_blank"
+          title="LinkedIn Profile"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+      </div>
+      <p class="text-center mt-5">
+        This project was coded by Shaked Cohen and it’s
+        <a href="https://github.com/shakedc28/portfolio-project" target="_blank"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
